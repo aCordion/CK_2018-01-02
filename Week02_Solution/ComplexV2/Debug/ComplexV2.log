@@ -1,0 +1,7 @@
+﻿  Complex.cpp
+d:\project\week02_solution\complexv2\complex.cpp(11): warning C4477: 'scanf' : 서식 문자열 '%i'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+d:\project\week02_solution\complexv2\complex.cpp(11): warning C4477: 'scanf' : 서식 문자열 '%i'에 'int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
+d:\project\week02_solution\complexv2\complex.cpp(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+  ComplexV2.vcxproj -> D:\Project\Week02_Solution\Debug\ComplexV2.exe
+  ComplexV2.vcxproj -> D:\Project\Week02_Solution\Debug\ComplexV2.pdb (Full PDB)

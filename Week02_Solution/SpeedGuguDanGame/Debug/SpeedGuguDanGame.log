@@ -1,0 +1,7 @@
+﻿  SpeedGuguDan.cpp
+d:\project\week02_solution\speedgugudangame\speedgugudan.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+  SGGame.cpp
+  코드를 생성하고 있습니다...
+  SpeedGuguDanGame.vcxproj -> D:\Project\Week02_Solution\Debug\SpeedGuguDanGame.exe
+  SpeedGuguDanGame.vcxproj -> D:\Project\Week02_Solution\Debug\SpeedGuguDanGame.pdb (Full PDB)
