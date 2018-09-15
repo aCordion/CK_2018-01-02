@@ -1,8 +1,0 @@
-﻿  Hangman.cpp
-d:\project\week03_solution\hangman\hangman.cpp(63): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 'getch' 선언을 참조하십시오.
-  코드를 생성하고 있습니다...
-  건너뛰고 있습니다... (관련된 변경 내용 없음)
-  HangmanGame.cpp
-  Hangman.vcxproj -> D:\Project\Week03_Solution\Debug\Hangman.exe
-  Hangman.vcxproj -> D:\Project\Week03_Solution\Debug\Hangman.pdb (Full PDB)
