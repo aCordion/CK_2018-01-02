@@ -25,10 +25,10 @@ void CpBullet::insert(int pos, int data_x, int data_y)
 		inData->next = m_head;
 		m_head = inData;
 		if (m_count == 0) {
-//			m_tail = m_head;
+			m_tail = m_head;
 		}
 		m_count++;
-//		tailFind();
+		tailFind();
 		return;
 	}
 	node *temp = m_head;
