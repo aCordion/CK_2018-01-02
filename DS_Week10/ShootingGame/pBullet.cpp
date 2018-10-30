@@ -136,10 +136,10 @@ void CpBullet::bulletGoUp()
 		if (temp->next != nullptr) {
 			temp = temp->next;
 			//if (temp->data.b_y < 1) {
-			if(m_head->data.b_y < 1) {
-				remove(0);
-//				cTemp = m_count;
-			}
+		}
+		if (m_head->data.b_y < 1) {
+			remove(0);
+			//				cTemp = m_count;
 		}
 		else { 
 			return;

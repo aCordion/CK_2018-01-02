@@ -11,6 +11,9 @@
 #define MAPSIZEY 20
 
 void main() {
+
+	//system("title Shooting Game");
+
 	srand((unsigned int)time(NULL));
 	CGameMap game(MAPSIZEX, MAPSIZEY);
 	CPlayer player(MAPSIZEX/2, MAPSIZEY-2, MAPSIZEX, MAPSIZEY);
