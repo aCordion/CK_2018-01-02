@@ -93,14 +93,28 @@ void CGameMap::draw()
 	}
 }
 
-char CGameMap::getCharMap(int x, int y)
+char * CGameMap::getCharPMap(int y, int x)
+{
+	return m_map[y][x].getCpNum();
+}
+
+char CGameMap::getCharMap(int y, int x)
 {
 	return m_map[y][x].getCNum();
 }
 
 int CGameMap::getMapNum(int y, int x)
 {
-	return m_map[y][x].getNum();
+	if (checkStatus != 0) {
+		return m_map[y][x].getNum();
+	}
+	else if (m_map[y][x].isOpen()) {
+		return m_map[y][x].getNum();
+	}
+	else {
+		return 10;
+	}
+	
 }
 
 void CGameMap::rcTileOpenner(int x, int y)

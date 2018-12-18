@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameMap.cpp" />
-    <ClCompile Include="mainProc.cpp" />
+    <ClCompile Include="Server.cpp" />
     <ClCompile Include="MyCursor.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="util.cpp" />

@@ -25,7 +25,8 @@ public:
 	CTile ** getMap() { return m_map; }
 	void setTile(int x, int y, bool bOpen);
 	void draw();
-	char getCharMap(int x, int y);
+	char *getCharPMap(int y, int x);
+	char getCharMap(int y, int x);
 	int getMapNum(int y, int x);
 	void rcTileOpenner(int x, int y);
 	void allTileOpen();
